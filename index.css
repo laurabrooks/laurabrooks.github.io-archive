@@ -1,0 +1,15 @@
+/* CSS file for the index of Laura's website */
+
+h1 {
+  font-family: Optima, Arial, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#header {
+  font-size: 2em;
+}
+
+#subHeader {
+  font-size: 1.75em;
+}
