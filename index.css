@@ -2,8 +2,13 @@
 
 h1 {
   font-family: Optima, Arial, sans-serif;
+  color: white;
+  background-color: #8181F7;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 10px;
+  border: 0px;
+  margin: 15px;
 }
 
 #header {
