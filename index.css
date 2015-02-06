@@ -3,11 +3,11 @@
 h1 {
   font-family: Optima, Arial, sans-serif;
   color: white;
-  background-color: #8181F7;
+  background-color: #819FF7;
   margin-left: 10%;
   margin-right: 10%;
   padding: 20px;
-  border: 0px;
+  border: 0px #819FF7;
   margin: 0px;
 }
 
