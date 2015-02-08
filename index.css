@@ -1,67 +1,59 @@
-/* CSS file for the index of Laura's website */
-
-
-
 
 body {
-	font-family: "Palatino Linotype", "Book Antigua", Palatino, serif;
-	color: white;
+        font-family: 'Amantic SC', cursive;
+        color: black;
 }
 
 
 
 #header {
-	text-align: left; 
-	font-size: 2em;
-	width: auto;
-	background-color: #2c5197;
-	padding: 10px;
-	border-radius: 10px 10px 10px 0;
+        text-align: left;
+        font-size: 2em;
+        width: auto;
+        background-color: #2c5197;
+        padding: 10px;
+        border-radius: 10px 10px 10px 0;
 }
 
 
 #nav {
-	text-align: left;
-	font-size: 1.5em;
-	height: 400px;
-	width: 100px;
-	float: left;
-	background-color: #a1b8e3;
-	padding: 10px;
-	line-height: 175%;
-	border-radius: 0 0 10px 10px;
+        text-align: left;
+        font-size: 1.5em;
+        height: 400px;
+        width: 100px;
+        float: left;
+        background-color: #a1b8e3;
+        padding: 10px;
+        line-height: 175%;
+        border-radius: 0 0 10px 10px;
 }
 
 a:link {
-	color: white;
-	text-decoration: none;
+        color: black;
+        text-decoration: none;
 }
 
 a:hover {
-	color: magenta;
-	text-decoration: none;
+        color: #ebf0f9;
+        text-decoration: none;
 }
 
-a:visited { 
-	color: white;
-	text-decoration: none;
+a:visited {
+        color: black;
+        text-decoration: none;
 }
 
 a:active  {
-	color: #ebf0f9;
-	text-decoration: none;
+        color: #ebf0f9;
+        text-decoration: none;
 }
 
 
 .resumeHeader {
-	color:black;
-	font-size: 1.5em;
-	text-align: left;
-	line-height: 150%;
+        color: black;
+	font-family: 'Pontano Sans', sans-serif;
+        font-size: 1.5em;
+        text-align: left;
+        line-height: 150%;
 }
-
-
-
-
-
 
