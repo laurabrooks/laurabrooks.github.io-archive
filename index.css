@@ -1,6 +1,6 @@
 
 body {
-        font-family: 'Amantic SC', cursive;
+        font-family: 'Amatic SC', Impact;
         color: black;
 }
 
@@ -51,7 +51,7 @@ a:active  {
 
 .resumeHeader {
         color: black;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Pontano Sans', Impact;
         font-size: 1.5em;
         text-align: left;
         line-height: 150%;
