@@ -18,17 +18,14 @@ body {
 #nav {
         text-align: left;
         font-size: 2em;
-        height: 400px;
-        width: 100px;
-        float: left;
-        background-color: #a1b8e3;
-        padding: 10px;
-        line-height: 175%;
-        border-radius: 0 0 10px 10px;
+        height: 50px;
+        width: 500px;
+        text-align: center;
+        background-color: white;
 }
 
 hr {
-	color: magenta;
+	color: #a96e6e;
 	padding: 0;
 	border: none;
 	text-align: center;
