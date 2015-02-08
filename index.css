@@ -27,9 +27,10 @@ body {
         border-radius: 0 0 10px 10px;
 }
 
-hr {
+hr.line {
 	color: #a96e6e;
 	width: 70%;
+	height: 3px;
 }
 
 a:link {
