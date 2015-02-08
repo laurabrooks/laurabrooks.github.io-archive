@@ -43,7 +43,7 @@ hr {
 	text-align: center;
 }
 
-#nav a:link {
+#nav a {
         color: black;
         text-decoration: none;
 }
@@ -52,7 +52,7 @@ hr {
         color: #a96e6e;
         text-decoration: none;
 }
-
+/*
 #nav a:visited {
         color: black;
         text-decoration: none;
@@ -62,7 +62,7 @@ hr {
         color: #a96e6e;
         text-decoration: none;
 }
-
+*/
 
 .resumeHeader {
         color: black;
