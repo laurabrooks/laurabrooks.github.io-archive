@@ -24,6 +24,17 @@ body {
         background-color: white;
 }
 
+#nav ul {
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav li {
+	display: inline;
+	padding: 40px;
+}
+
 hr {
 	color: #a96e6e;
 	padding: 0;
