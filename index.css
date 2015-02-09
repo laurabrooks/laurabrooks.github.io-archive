@@ -10,7 +10,9 @@ body {
         font-size: 3em;
 	font-weight: 900;
         width: 100vw;
-        padding: 10px;
+        height: 150px;
+	vertical-align: middle;
+	padding: 10px;
 	margin: 10px;
 }
 
@@ -38,10 +40,10 @@ body {
 }
 
 hr {
-	color: #a96e6e;
 	padding: 0;
-	border: none;
+	border: 2px solid #a96e6e;
 	text-align: center;
+	width: 66vw;
 }
 
 #nav a {
