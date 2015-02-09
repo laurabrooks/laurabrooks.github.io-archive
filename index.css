@@ -9,7 +9,7 @@ body {
         text-align: center;
         font-size: 3em;
 	font-weight: 900;
-        width: auto;
+        width: 100vw;
         padding: 10px;
 	margin: 10px;
 }
@@ -29,6 +29,7 @@ body {
 	height: auto;
 	padding: 0px;
 	margin: 0px;
+	width: 100vw;
 }
 
 #nav li {
