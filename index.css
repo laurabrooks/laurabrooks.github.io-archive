@@ -8,7 +8,7 @@ body {
         text-align: center;
         font-size: 3em;
 	font-weight: 900;
-        width: 100vw;
+        width: auto;
         height: 150px;
 	vertical-align: middle;
 	padding: 10px;
@@ -56,8 +56,10 @@ hr {
 }
 
 #section {
+	width: 100vw;
 	margin-top: 15px;
 	margin-bottom: 100px;
+	padding: 0px;
 }
 
 .sectionHeader {
@@ -67,7 +69,7 @@ hr {
         text-align: inherit;
         margin-top: 0px;
 	margin-bottom: 0px;
-	width: 100vw;
+/*	width: 100vw;*/
 	padding-left: 16.5vw;
 	padding-right: 16.5vw;
 }
@@ -75,9 +77,9 @@ hr {
 p.text {
 	color: black;
 	font-family: 'Pontano Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	padding-left: 16.5vw;
-	padding-right: 16.5vw;
+	padding-right: 50vw;
 	margin-bottom: 100px;
 }
 
@@ -92,11 +94,17 @@ p.text {
 	margin-bottom: 15px;
 }
 
+span.bold {
+	font-weight: bold;
+}
 
+span.date {
+	float: right;
+}
 
-
-
-
+li.indent {
+	text-indent: 20px;
+}
 
 
 
