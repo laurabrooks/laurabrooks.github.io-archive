@@ -56,10 +56,11 @@ hr {
 }
 
 #section {
-	width: 100vw;
+	width: 100%;
 	margin-top: 15px;
 	margin-bottom: 100px;
 	padding: 0px;
+	display: table;
 }
 
 .sectionHeader {
@@ -106,10 +107,17 @@ li.indent {
 	text-indent: 20px;
 }
 
-.image {
-	float: right;
-	display: inline;
+
+div.left {
+	float: left;
+	width: 500px;
 }
+div.right {
+	padding-right: 200px;
+	float: right;
+}
+
+
 
 
 
