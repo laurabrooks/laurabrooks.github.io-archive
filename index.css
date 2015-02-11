@@ -1,15 +1,15 @@
 body {
-        font-family: 'Amatic SC', Impact;
-        color: black;
+	font-family: 'Amatic SC', Impact;
+	color: black;
 }
 
 
 #header {
-        text-align: center;
-        font-size: 3em;
+	text-align: center;
+	font-size: 3em;
 	font-weight: 900;
-        width: auto;
-        height: 150px;
+	width: auto;
+	height: 150px;
 	vertical-align: middle;
 	padding: 10px;
 	margin: 10px;
@@ -17,12 +17,12 @@ body {
 
 
 #nav {
-        text-align: center;
-        font-size: 2em;
-        height: 50px;
-        width: 500px;
-        text-align: center;
-        background-color: white;
+	text-align: center;
+	font-size: 2em;
+	height: 50px;
+	width: 500px;
+	text-align: center;
+	background-color: white;
 }
 
 #nav ul {
@@ -71,7 +71,7 @@ hr {
 	margin-bottom: 0px;
 /*	width: 100vw;*/
 	padding-left: 16.5vw;
-	padding-right: 16.5vw;
+	padding-right: 0px;
 }
 
 p.text {
@@ -106,7 +106,10 @@ li.indent {
 	text-indent: 20px;
 }
 
-
+.image {
+	float: right;
+	display: inline;
+}
 
 
 
