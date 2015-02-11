@@ -80,8 +80,9 @@ p.text {
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 1.1em;
 	padding-left: 16.5vw;
-	padding-right: 50vw;
+	/*padding-right: 50vw;*/
 	margin-bottom: 100px;
+	overflow: hidden;
 }
 
 #section ul {
@@ -110,7 +111,7 @@ li.indent {
 
 div.left {
 	float: left;
-	width: 500px;
+	width: 600px
 }
 div.right {
 	padding-right: 200px;
