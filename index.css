@@ -82,6 +82,17 @@ hr {
 	padding: 0px;
 }
 
+.resumeHeader {
+    color: black;
+	font-family: 'Pontano Sans', sans-serif;
+    font-size: 1.25em;
+    text-align: inherit;
+    margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 17%;
+	margin-bottom: 4px;
+}
+
 .text {
 	color: black;
 	font-family: 'Pontano Sans', sans-serif;
@@ -117,15 +128,18 @@ li.indent {
 
 .left {
 	float: left;
-	width: auto;
-	margin-left: 17%;
+	width: 32%;
+	padding-left: 17%;
 }
 .right {
 	float: right;
-	width: auto;
-	margin-right: 17%;
+	width: 32%;
+	padding-right: 17%;
 }
 
+img {
+	float: right;
+}
 
 
 
