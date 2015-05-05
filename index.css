@@ -49,7 +49,7 @@ hr {
 	padding: 0;
 	border: 2px solid #a96e6e;
 	text-align: center;
-	width: 66vw;
+	width: 66%;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
@@ -73,23 +73,20 @@ hr {
 }
 
 .sectionHeader {
-        color: black;
+    color: black;
 	font-family: 'Pontano Sans', sans-serif;
-        font-size: 1.25em;
-        text-align: inherit;
-        margin-top: 0px;
+    font-size: 1.25em;
+    text-align: inherit;
+    margin-top: 0px;
 	margin-bottom: 0px;
-/*	width: 100vw;*/
-	padding-left: 16.5vw;
-	padding-right: 0px;
+	padding: 0px;
 }
 
-p.text {
+.text {
 	color: black;
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 1.1em;
-	padding-left: 16.5vw;
-	/*padding-right: 50vw;*/
+	padding: 0px;
 	margin-bottom: 100px;
 	overflow: hidden;
 }
@@ -118,13 +115,15 @@ li.indent {
 }
 
 
-div.left {
+.left {
 	float: left;
-	width: 600px
+	width: auto;
+	margin-left: 17%;
 }
-div.right {
-	padding-right: 200px;
+.right {
 	float: right;
+	width: auto;
+	margin-right: 17%;
 }
 
 
