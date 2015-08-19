@@ -152,13 +152,13 @@ li.indent {
 
 .left {
 	float: left;
-	width: 32%;
-	padding-left: 17%;
+	width: 25%;
+	padding-left: 22%;
 }
 .right {
 	float: right;
-	width: 32%;
-	padding-right: 17%;
+	width: 28%;
+	padding-right: 22%;
 }
 
 img {
