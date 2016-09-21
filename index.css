@@ -20,7 +20,7 @@ h1 {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	#header{
 		font-size: 2em;
 		margin-top: 40px;
@@ -34,6 +34,7 @@ h1 {
 	width: 100%;
 	background-color: white;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 #nav ul {
@@ -51,7 +52,7 @@ h1 {
 	padding-left: 5%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 	#nav ul {
 		font-size: .75em;
 		width: 100%;
@@ -106,7 +107,7 @@ hr {
     text-align: inherit;
     margin-top: 0px;
 	margin-bottom: 0px;
-	padding-left: 17%;
+	padding-left: 16.5vw;
 	margin-bottom: 4px;
 }
 
@@ -115,8 +116,15 @@ hr {
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 1.1em;
 	padding: 0px;
-	margin-bottom: 100px;
 	overflow: hidden;
+}
+
+.text a {
+    color: #a96e6e;
+}
+
+.text a:hover {
+    color: black;
 }
 
 #section ul {
@@ -130,6 +138,24 @@ hr {
 	margin-bottom: 15px;
 }
 
+@media (max-width: 700px) {
+	.resumeHeader {
+		font-size: 1em;
+		padding-left: 5vw;
+		margin-bottom: 4px;
+	}
+	#section ul {
+		font-size: .75em;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+}
+
+ul#sublist {
+	padding-left: 40px;
+	margin-bottom: 0px;
+}
+
 span.bold {
 	font-weight: bold;
 }
@@ -138,16 +164,21 @@ span.date {
 	float: right;
 }
 
+span.italic {
+	font-style: italic;
+}
+
+span.accent {
+	color: #a96e6e;
+}
+
 li.indent {
 	text-indent: 20px;
 }
 
-#section li.indent:before {
-	content: "4";
-	font-family: "Webdings";
-	color: #a96e6e;
-	font-size: 0.75em;
-	vertical-align: 15%;
+hr.whitespace {
+	height: 2px;
+	visibility: hidden;
 }
 
 .left {
@@ -162,18 +193,7 @@ li.indent {
 }
 
 img {
+	width: 72%;
+	height: auto;
 	float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
