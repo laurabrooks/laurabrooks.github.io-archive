@@ -127,6 +127,7 @@ hr {
     color: black;
 }
 
+/*might be outdated with table*/
 #section ul {
 	color: black;
 	font-family: 'Pontano Sans', sans-serif;
@@ -139,6 +140,12 @@ hr {
 }
 
 @media (max-width: 700px) {
+	.sectionHeader {
+	    font-size: 1em;
+	}
+	.text {
+		font-size: .75em;
+	}
 	.resumeHeader {
 		font-size: 1em;
 		padding-left: 5vw;
@@ -151,9 +158,16 @@ hr {
 	}
 }
 
-ul#sublist {
+span.resume_left {
+	display: inline-block;
+	width: 85%;
+}
+
+span.bullet_list {
+	display: inline-block;
+	width: 85%;
 	padding-left: 40px;
-	margin-bottom: 0px;
+	text-indent: -12px;
 }
 
 span.bold {
@@ -164,16 +178,23 @@ span.date {
 	float: right;
 }
 
+table {
+	color: black;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 1em;	
+	list-style-type: none;
+	padding-left: 16.5vw;
+	padding-right: 16.5vw;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
 span.italic {
 	font-style: italic;
 }
 
 span.accent {
 	color: #a96e6e;
-}
-
-li.indent {
-	text-indent: 20px;
 }
 
 hr.whitespace {
