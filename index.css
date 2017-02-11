@@ -68,8 +68,7 @@ hr {
 	border: 2px solid #a96e6e;
 	text-align: center;
 	width: 66%;
-	margin-bottom: 0px;
-	margin-top: 0px;
+    margin: 0 auto;
 }
 
 #nav a {
@@ -127,7 +126,6 @@ hr {
     color: black;
 }
 
-/*might be outdated with table*/
 #section ul {
 	color: black;
 	font-family: 'Pontano Sans', sans-serif;
@@ -217,4 +215,150 @@ img {
 	width: 72%;
 	height: auto;
 	float: right;
+    border-radius: 100%;
 }
+
+#proj_grid {
+    height: 40vw;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 3vw;
+    margin-bottom: 20vw;
+}
+
+.project {
+    height: 50%;
+    width: 46%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+    position: relative;
+}
+
+@media (max-width: 850px) { /*smallest screens*/
+    .project {
+        height: 300px;
+        width: 100%;
+        display: inline-block;
+        margin-top: 3%;
+        position: relative;
+    }
+}
+
+/*biggest screens --- look into this*/
+@media (min-width: 2000px) { 
+    .project {
+        height: 400px;
+        width: 550px;
+        display: inline-block;
+        margin-top: 3%;
+        position: relative;
+        margin-left: calc((100% - 1100px) / 3);
+    }
+}
+
+.notextlink {
+    text-decoration: none;
+}
+
+#project1_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(assets/campaignviz.PNG);
+    background-size: cover;
+}
+
+#project2_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(assets/cobot.PNG);
+    background-size: cover;
+}
+
+#project3_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(assets/ansiblegalaxy.PNG);
+    background-size: cover;
+}
+
+#project4_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(assets/atswitch.PNG);
+    background-size: cover;
+}
+
+#project5_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+/*    background-image: url(assets/atswitch.png);*/
+    background-size: cover;
+}
+
+#project6_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+/*    background-image: url(assets/atswitch.png);*/
+    background-size: cover;
+}
+
+.coverbox {
+    height: 20%;
+    width: 100%;
+/*    background-color: #d9b9b9;*/
+    background-color: #d0d0d0;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    opacity: .9;
+/*    overflow: scroll;*/
+}
+
+.cover_text {
+	color: black;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 1.1em;
+    font-weight: bold;
+	overflow: hidden;
+    margin: 15px;
+}
+
+@media (max-width: 430px) {
+    .cover_text {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1100px) { /*when it changes from two columns to one*/
+    .coverbox {
+        height: 30%;
+    }
+    .cover_text {
+        margin-top: 5px;
+    }
+}
+
+.description {
+	color: black;
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 1em;
+    font-weight: normal;
+	overflow: hidden;
+    margin: 15px;
+    display: none;
+}
+
